@@ -31,6 +31,40 @@
 };
 
 / {
+	combos {
+		compatible = "zmk,combos";
+		combo_lc {
+			timeout-ms = <50>;
+			keypositions = <13 14>;
+			bindings = <&kp LCTRL>;
+		};
+		combo_ls {
+			timeout-ms = <50>;
+			keypositions = <14 15>;
+			bindings = <&kp LGUI>;
+		};
+		combo_la {
+			timeout-ms = <50>;
+			keypositions = <15 16>;
+			bindings = <&kp LALT>;
+		};
+		/* Mirror to right side */
+		combo_ra {
+			timeout-ms = <50>;
+			keypositions = <19 20>;
+			bindings = <&kp RALT>;
+		};
+		combo_rs {
+			timeout-ms = <50>;
+			keypositions = <21 22>;
+			bindings = <&kp RGUI>;
+		};
+		combo_rc {
+			timeout-ms = <50>;
+			keypositions = <22 23>;
+			bindings = <&kp RCTRL>;
+		};
+	};
         keymap {
                 compatible = "zmk,keymap";
 
