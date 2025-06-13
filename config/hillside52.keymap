@@ -37,32 +37,38 @@
 			timeout-ms = <50>;
 			key-positions = <13 14>;
 			bindings = <&kp LCTRL>;
+			layers = <0 1>;
 		};
 		combo_ls {
 			timeout-ms = <50>;
 			key-positions = <14 15>;
 			bindings = <&kp LGUI>;
+			layers = <0 1>;
 		};
 		combo_la {
 			timeout-ms = <50>;
 			key-positions = <15 16>;
 			bindings = <&kp LALT>;
+			layers = <0 1>;
 		};
 		/* Mirror to right side */
 		combo_ra {
 			timeout-ms = <50>;
 			key-positions = <19 20>;
 			bindings = <&kp RALT>;
+			layers = <0 1>;
 		};
 		combo_rs {
 			timeout-ms = <50>;
 			key-positions = <20 21>;
 			bindings = <&kp RGUI>;
+			layers = <0 1>;
 		};
 		combo_rc {
 			timeout-ms = <50>;
 			key-positions = <21 22>;
 			bindings = <&kp RCTRL>;
+			layers = <0 1>;
 		};
 	};
         keymap {
